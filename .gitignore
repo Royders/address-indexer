@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# testing
+test
+
+# leveldb
+data
+
+# misc
+.idea
+client.js
+.dockerignore
+docker-compose.yml
+build.sh

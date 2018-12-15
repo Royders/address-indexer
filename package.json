@@ -1,0 +1,31 @@
+{
+  "name": "address-service-indexer",
+  "version": "0.1.1",
+  "description": "address indexer for ltc",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "lint": "node_modules/.bin/standard",
+    "fix": "node_modules/.bin/standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "address",
+    "index",
+    "blockchain",
+    "node",
+    "ltc"
+  ],
+  "author": "Thomas Liebberger",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^8.0.1",
+    "level": "^4.0.0",
+    "lexicographic-integer-encoding": "^1.0.1",
+    "multilevel": "^7.2.3",
+    "waterpark": "^0.2.3"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
