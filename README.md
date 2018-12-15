@@ -27,7 +27,7 @@ To start the process simply run
 npm start
 ```
 
-This command will start the syncing process as well as the level-db server. To connect an API to the Server, use the following ports:
+This command will start the syncing process as well as the level-db server. To connect an API to the server, use the following ports:
 
 
 ```
