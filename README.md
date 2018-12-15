@@ -1,5 +1,10 @@
 # address-indexer for ltc
 
+Data within the block chain is sorted by blocks. Within these blocks, n transactions with n inputs and outputs can be carried out. 
+To obtain an overview of the current balance status of an address, it is necessary to "turn the data structure upside down", otherwise indexing by address is not possible. Due to the large number of transactions (and thus the inputs and outputs) and the length of the key, the fast Key Value Storage Enginge "leveldb" is used. This makes it possible to query individual addresses within less than 50ms (for a number of events < 50,000). This query speed enables the development of real time applications. 
+
+
+
 Prerequisite for starting the process:
 
 ```
