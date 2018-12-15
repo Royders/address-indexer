@@ -14,6 +14,11 @@ Key: <Address, Height, txid, timestamp, index, type>
 Value: <Amount> (if unspent)
 Value: <Amount, txid, index, height, time> (if spent)
 ```
+Datamodel Block:
+```
+Key: <height> 
+Value: <time, hash> 
+```
 
 
 To start the process simply run 
