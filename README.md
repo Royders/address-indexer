@@ -3,7 +3,8 @@
 Prerequisite for starting the process:
 
 ```
-- At least 25 GB free HardDisk Space for the Sync Process
+- A LTC Node to connect to,
+- At least 25 GB free HardDisk Space for the Sync Process,
 - At least 80 GB free HardDisk Space for the LTC Nodes Data
 ```
 
