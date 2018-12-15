@@ -34,3 +34,5 @@ This command will start the syncing process as well as the level-db server. To c
 5001 :  Address DB
 5002:   Block DB
 ```
+
+Based on your Hardware, the initial Sync will take roughly 2 1/2 -  4 hours. Because of the leveldb server, you can use the leveldb instance during that time to explore the data. 
