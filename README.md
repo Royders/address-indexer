@@ -8,6 +8,14 @@ Prerequisite for starting the process:
 - At least 80 GB free HardDisk Space for the LTC Nodes Data
 ```
 
+Datamodel Address:
+```
+Key: <Address, Height, txid, timestamp, index, type> 
+Value: <Amount> (if unspent)
+Value: <Amount, txid, index, height, time> (if spent)
+```
+
+
 To start the process simply run 
 
 ```
