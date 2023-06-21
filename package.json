@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "bignumber.js": "^8.0.1",
-    "level": "^4.0.0",
+    "level": "^5.0.0",
     "lexicographic-integer-encoding": "^1.0.1",
     "multilevel": "^7.2.3",
     "waterpark": "^0.2.3"
